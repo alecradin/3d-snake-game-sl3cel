@@ -1,7 +1,7 @@
 import WorldModel from "./WorldModel";
 class GameController {
   world : WorldModel;
-  constructor(){
+  constructor(g: Game){
     this.world = WorldModel;
   }
   player1(){
